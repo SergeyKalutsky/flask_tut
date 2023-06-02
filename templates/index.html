@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/index.css">
+    {% block head %}{% endblock %}
+    <title>Мой крутой сайт</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="btn-container">
+            <div class="nav-select">
+                <span><a href="/">Главная</a></span>
+            </div>
+            <div class="nav-select">
+                <span><a href="/items">Товары</a></span>
+            </div>
+            <div class="nav-select">
+                <span><a href="">Доставка</a></span>
+            </div>
+            <div class="nav-select">
+                <span><a href="">Поддержка</a></span>
+            </div>
+            <div class="nav-select">
+                <span><a href="/contacts">Контакты</a></span>
+            </div>
+        </div>
+    </div>
+    {% block content %}{% endblock %}
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+/* tag, class, id, комбинация */
+
+* {
+    margin: 10px;
+}
+
+
+span {
+    font-size  : 30px;
+    font-family: sans-serif;
+}
+
+.container {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.input-container {
+    width          : 50%;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+}
+
+input {
+    padding-left : 5px;
+    width        : 50%;
+    font-size    : 20px;
+    border-radius: 10px;
+    border       : 1;
+    outline      : 0;
+    box-shadow: none;
+}
+
+button {
+    font-size: 18px;
+    width    : 100px;
+    height   : 30px;
+}

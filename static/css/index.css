@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+
+.navbar {
+    height          : 60px;
+    width           : 100%;
+    background-color: rgb(99, 153, 207);
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+.btn-container {
+    width          : 80%;
+    height         : 80%;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+}
+
+.nav-select {
+    width          : 120px;
+    height         : 60%;
+    margin         : 5px;
+    border         : 2px solid;
+    border-color   : rgba(39, 35, 35, 0.209);
+    border-radius  : 10%;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.nav-select:hover {
+    background-color: rgba(39, 35, 35, 0.251);
+}
+
+a {
+    text-decoration: none;
+    font-size      : 20px;
+    font-family    : sans-serif;
+    font-weight    : 500;
+    color: rgb(223, 218, 218);
+}

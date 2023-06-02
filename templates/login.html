@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/login.css">
+</head>
+
+<body>
+    <!-- input, span, button, div -->
+    <!-- <form action="/login" method="post"> -->
+    <div class="container">
+        <div class="input-container">
+            <span>Войдите в систему:</span>
+            <input type="text" placeholder="Логин" id="login">
+            <input type="password" placeholder="Пароль" id="password">
+            <button type="submit" id="btn">Войти</button>
+        </div>
+    </div>
+    <!-- </form> -->
+    <script>
+        const element = document.getElementById('btn')
+        element.addEventListener('click', function (e) {
+            const login = document.getElementById('login').value
+            const password = document.getElementById('password').value
+            console.log(login, password)
+            fetch('/login', )
+        })
+
+    </script>
+</body>
+
+</html>
